@@ -1,3 +1,156 @@
+# about.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carter McCann">
+    <meta name="description" content="About Pump Protein">
+    <title>Pump Protein - About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>About <span>Pump Protein</span></h1>
+            <p>Your trusted brand for peak performance drinks.</p>
+        </header>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <div class="about-container">
+                <div class="about-header">
+                    <h1>About <span>Pump Protein</span></h1>
+                    <p>Your trusted brand for peak performance drinks.</p>
+                </div>
+            
+                <div class="about-mission">
+                    <h2>Our Mission</h2>
+                    <p>At Pump Protein, we aim to combine <strong>premium protein</strong> with cutting-edge science for unparalleled results.</p>
+                </div>
+            
+                <div class="about-features">
+                    <h2>Why Choose Us?</h2>
+                    <p>Pump Protein is scientifically formulated to give you:</p>
+                    <ul>
+                        <li>Unmatched energy and focus</li>
+                        <li>Muscle recovery support</li>
+                        <li>Premium ingredients with proven results</li>
+                    </ul>
+                </div>
+            
+                <div class="about-values">
+                    <h2>Our Promise</h2>
+                    <p>We use only the finest ingredients to ensure our products deliver on their promise to fuel your body and mind.</p>
+                    <ol>
+                        <li>Quality you can trust</li>
+                        <li>Transparency in every formula</li>
+                        <li>Designed for peak performance</li>
+                    </ol>
+                </div>
+            
+                <div class="about-contact">
+                    <h2>Contact Us</h2>
+                    <address>
+                        <strong>Email:</strong> support@pumpprotein.com<br>
+                        <strong>Phone:</strong> <a href="tel:253-514-2771">253-514-2771</a>
+                    </address>
+                </div>
+            </div>
+            
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Pump Protein &#8226; Call us at <a href="tel:253-514-2771">253-514-2771</a></p>
+        
+        </footer>
+    </div>
+</body>
+</html>
+
+```
+
+# index.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carter McCann">
+    <meta name="description" content="Learn more about Pump Protein, the ultimate energy drink for body and mind.">
+    <title>Pump Protein - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <header class="header">
+            <h1>Welcome to <span>Pump Protein</span></h1>
+            <p> <strong>fueling the body</strong> and <em> the mind</em>.</p>
+        </header>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>Fuel Your Performance</h1>
+                    <h3>With 30g of protein and premium nootropics.</h3>
+                </div>
+                <img src="hero.jpg" alt="Pump Protein Drink">
+            </div>
+
+            <section class="features">
+                <h2>Our Ingredients</h2>
+                <dl>
+                    <dt>30g of Protein</dt>
+                    <dd>Muscle-fueling power to support your fitness goals.</dd>
+                    <dt>300mg Alpha-GPC</dt>
+                    <dd>Enhances cognitive function for focus and clarity.</dd>
+                    <dt>1500mg L-Carnitine</dt>
+                    <dd>Boosts energy production and fat metabolism.</dd>
+                </dl>
+            </section>
+
+            <h2>Get Started</h2>
+            <p>Click <a href="about.html">here</a> to learn more about us!</p>
+    
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <p>Need gym equipment? Check out these resources:</p>
+                <ul>
+                    <li><a href="https://www.roguefitness.com" target="_blank">Rogue Fitness</a></li>
+                    <li><a href="https://www.myprotein.com" target="_blank">MyProtein</a></li>
+                </ul>
+            </div>            
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 Pump Protein &bull; Call us at <a href="tel:253-514-2771">253-514-2771</a></p>
+        
+        </footer>
+   
+</body>
+</html>
+
+```
+
+# style.css
+
+```css
 * {
     margin: 0;
     padding: 0;
@@ -317,3 +470,6 @@ a[href^="tel:"]:hover {
     color: #0056b3;
     text-decoration: underline;
 }
+
+```
+

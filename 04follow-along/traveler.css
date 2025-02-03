@@ -1,0 +1,137 @@
+body {  
+     font-family: "Oxygen", serif;
+     margin: 0;
+}
+
+/* start the page header */
+header {
+    background-color: #eaeaea;
+    padding: 1rem 10px;
+} 
+header span {
+    color: #024873 ;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* start the page navigation */
+nav {
+    background-color: #f2b705;
+    padding: 1rem 10px;
+}
+
+nav ul {
+    margin : 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+} 
+
+nav a {
+    color: #024873;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.83rem 1rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav li.active a { 
+    background-color: #024873;
+    color: #f2b705;
+}
+nav li a:hover {
+    color: #ffffff;
+}
+
+/* start the page main */
+main {
+    padding: 1rem 10px;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+main h1 {
+    color: #840412; 
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+main h2 {
+    color: #024873;
+    margin-bottom: .2rem; 
+}
+
+main p { 
+    margin : 0; 
+    color: #333;
+} 
+
+main ol {
+    padding : .5rem 30px;
+    background-color: #efefef;
+}
+
+main dl dt {
+    color: #b40412;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+margin-left: 20px ;
+font-size: .9rem;
+color: #024873;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: #000;
+}
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    background-color: #f2b705;
+    padding: .5rem; 
+    border-radius: 10px;
+    border: 1px solid #024873;
+    width: 200px;
+}
+
+main a {
+    color: #024873;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: none;
+    color: rgb(180, 4, 18);
+}
+
+/* start the page footer */
+footer {
+    background-color: #eaeaea;
+    padding: 1rem 0;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    color: #333;
+    font-size: .8rem;
+    letter-spacing: 3px;
+}   

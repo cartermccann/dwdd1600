@@ -1,0 +1,169 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px; 
+    line-height: 1.5;
+    background-color: #D9D9D9;
+    color: #010F0C;            
+}
+
+
+p {
+    font-size: 1.125rem; 
+    margin-bottom: 1rem;
+    
+}
+
+/* Header */
+h1 {
+    color: #3351F1;   
+    font-weight: 700; 
+    font-size: 2rem; 
+    margin: 1rem 0;
+    text-align: center;
+}
+
+h2 {
+    color: #010F0C;   
+    font-weight: 700; 
+    font-size: 1.5rem; 
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/*  General Layout */
+
+.container {
+    background-color: #D9D9D9; 
+    border: 2px solid #3351F1; 
+    border-radius: 1px;        
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.header {
+    background-color: #3351F1; 
+    color: #FFFFFF;           
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer {
+    background-color: #010F0C; 
+    color: #FFFFFF;            
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #FFFFFF;  
+    text-decoration: none;          
+}
+
+footer a:hover {
+    color: #A8F4FF; 
+    text-decoration: none;           
+}
+
+/*  Nav */
+
+.nav ul {
+    list-style: none;   
+    margin: 0;
+    padding: 0;
+    display: flex;      
+    justify-content: center;
+    gap: 1rem;
+    background-color: #3351F1; 
+}
+
+.nav li a {
+    text-decoration: none;    
+    color: #FFFFFF;          
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    line-height: 48px;        
+    font-weight: 400;
+    transition: background-color 0.3s;
+}
+
+.nav li a.active {
+    background-color: #A8F4FF; 
+    color: #010F0C;           
+}
+
+.nav li a:hover {
+    background-color: #A8F4FF; 
+    color: #010F0C;          
+}
+
+/* Main*/
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #D9D9D9; 
+    padding: 1rem;
+    border: 2px solid #3351F1; 
+    border-radius: 8px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Lists */
+
+main ul, .main ul {
+    list-style-type: disc; 
+    margin-left: 1.5rem; 
+    padding: 0.5rem;
+}
+
+main ol, .main ol {
+    list-style-type: decimal; 
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+}
+
+/* style for <dl> */
+dl {
+    margin: 1rem;
+}
+
+dt {
+    font-weight: 700; 
+    color: #3351F1;
+    margin-top: 1rem;
+}
+
+dd {
+    margin: 0 0 1rem 1rem;
+    color: #010F0C;
+}
+
+/* Pseudo-classes (Links in content)*/
+
+main a:hover {
+    color: #3351F1; 
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: 700; 
+    color: #010F0C;
+}
+
+address {
+    font-style: normal;
+    background-color: #A8F4FF; 
+    padding: 1rem;
+    border-radius: 4px;
+}
+

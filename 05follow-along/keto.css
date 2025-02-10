@@ -142,6 +142,7 @@ footer {
     color: #024873;
     font-size: .7rem;
     padding: 1rem 0;
+    clear: both; 
 }
 footer a {
     color: #024873;

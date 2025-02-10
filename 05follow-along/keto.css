@@ -125,7 +125,7 @@ div.gallery figure {
     margin: .5rem 2% 0 0;
 }
 
-div.gallery figurecaption {
+div.gallery figcaption {
     font-size: .8rem;
     text-align: center;
     color: #b64e11;

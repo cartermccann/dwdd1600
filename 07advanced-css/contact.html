@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carter McCann">
+    <meta name="description" content="Learn more about Pump Protein, the ultimate energy drink for body and mind.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Pump Protein - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon link -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+    <header class="header">
+        <img src="images/pump-protein-logo.png" alt="Pump Protein Logo" class="logo">
+        <div class="header-content">
+            <p>Welcome to <span>Pump Protein</span></p>
+            <p><strong>Fueling the body</strong> and <em>the mind</em>.</p>
+        </div>
+    </header>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content / form stuff -->
+        <main class="main">
+            <h1>Reach Out to Us</h1>
+            <p>Please fill out the form below so we can better understand your needs and goals with Pump Protein.</p>
+            <form action="thanks.html" method="get">
+                
+                
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    
+                    <p>
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" id="fullname" name="fullname" required 
+                               placeholder="Chris Bumstead">
+                    </p>
+
+                    
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" required 
+                               placeholder="chris@example.com">
+                    </p>
+
+                    
+                    <p>
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="tel" id="phone" name="phone" 
+                               placeholder="987-555-1234">
+                    </p>
+                </fieldset>
+
+                
+                <fieldset>
+                    <legend>About Your Fitness Journey</legend>
+
+                    
+                    <p>
+                        <span>What is your main fitness goal?</span><br>
+                        <label>
+                            <input type="radio" name="fitness_goal" value="muscle" required>
+                            Build Muscle
+                        </label><br>
+                        <label>
+                            <input type="radio" name="fitness_goal" value="endurance">
+                            Increase Endurance
+                        </label><br>
+                        <label>
+                            <input type="radio" name="fitness_goal" value="general_health">
+                            General Health
+                        </label>
+                    </p>
+
+                    
+                    <p>
+                        <span>What workouts do you enjoy?</span><br>
+                        <label>
+                            <input type="checkbox" name="workouts" value="lifting">
+                            Weight Lifting
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="workouts" value="running">
+                            Running
+                        </label><br>
+                        <label>
+                            <input type="checkbox" name="workouts" value="yoga">
+                            Yoga
+                        </label>
+                    </p>
+                </fieldset>
+
+                
+                <fieldset>
+                    <legend>Your Pump Protein Experience</legend>
+
+                    
+                    <p>
+                        <label for="favorite_flavor">What's your favorite Pump Protein flavor so far?</label><br>
+                        <select id="favorite_flavor" name="favorite_flavor">
+                            <option value="Orange Creamsicle" selected>Orange Creamsicle</option>
+                            <option value="Lemonade">Lemonade</option>
+                            <option value="berry">Berry Blast</option>
+                        </select>
+                    </p>
+
+                    
+                    <p>
+                        <label for="comments">Additional Comments or Questions:</label><br>
+                        <textarea id="comments" name="comments" rows="5" cols="30" 
+                                  placeholder="Tell us about your experience or ask a question."></textarea>
+                    </p>
+                </fieldset>
+
+                <!-- Submit Button -->
+                <p>
+                    <button type="submit" class="submit-btn">
+                        Send Feedback
+                    </button>
+                </p>
+            </form>
+            <!-- end of the form -->
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Pump Protein &bull; Call us at <a href="tel:253-514-2771">253-514-2771</a></p>
+        </footer>
+
+    </div> 
+</body>
+</html>

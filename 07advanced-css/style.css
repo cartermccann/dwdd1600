@@ -1,0 +1,357 @@
+/*  border-box */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px; 
+    line-height: 1.5;
+    background-color: #D9D9D9;
+    color: #010F0C;            
+}
+
+p {
+    font-size: 1.125rem; 
+    margin-bottom: 1rem;
+}
+
+/* Header */
+h1 {
+    color: #3351F1;   
+    font-weight: 700; 
+    font-size: 2rem; 
+    margin: 1rem 0;
+    text-align: center;
+}
+
+h2 {
+    color: #010F0C;   
+    font-weight: 700; 
+    font-size: 1.5rem; 
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Width Control & Center Page Contents */
+header, nav, main, footer, .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* General Layout */
+.container {
+    background-color: #D9D9D9; 
+    border: 2px solid #3351F1; 
+    border-radius: 1px;        
+    padding: 1rem;
+}
+
+/* Site logo and header styling */
+.header {
+    background-color: #3351F1; 
+    color: #FFFFFF;           
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 1rem;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #010F0C; 
+    color: #FFFFFF;            
+    text-align: center;
+    padding: 1rem;
+    clear: both;
+}
+
+footer a {
+    color: #FFFFFF;  
+    text-decoration: none;          
+}
+
+footer a:hover {
+    color: #A8F4FF; 
+    text-decoration: none;           
+}
+
+/* Navigation / Media Queries */
+@media only screen and (max-width: 600px) {
+    
+        .nav ul {
+            list-style: none;   
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: #3351F1;
+        }
+
+        .nav li {
+            margin-bottom: 0.5rem;
+        }
+
+        .nav li a {
+            text-decoration: none;    
+            color: #FFFFFF;          
+            display: block;
+            padding: 0.5rem 1rem;
+            line-height: 48px;        
+            font-weight: 400;
+            transition: background-color 0.3s;
+        }
+
+        .nav li.active a {
+            background-color: #A8F4FF; 
+            color: #010F0C;           
+        }
+
+        .nav li a:hover {
+            background-color: #A8F4FF; 
+            color: #010F0C;          
+        }
+
+}
+
+/* Tablet and desktop styles - horizontal menu */
+@media only screen and (min-width: 601px) {
+    .nav ul {
+        list-style: none;   
+        margin: 0;
+        padding: 0;
+        display: flex;      
+        justify-content: center;
+        gap: 1rem;
+        background-color: #3351F1; 
+    }
+    
+    .nav li a {
+        text-decoration: none;    
+        color: #FFFFFF;          
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        line-height: 48px;        
+        font-weight: 400;
+        transition: background-color 0.3s;
+    }
+    
+    .nav li.active a {
+        background-color: #A8F4FF; 
+        color: #010F0C;           
+    }
+    
+    .nav li a:hover {
+        background-color: #A8F4FF; 
+        color: #010F0C;          
+    }
+}
+
+/* Hero  */
+.hero-wrapper {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    max-width: 100%; 
+}
+
+.hero-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #D9D9D9; 
+    padding: 1rem;
+    border: 2px solid #3351F1; 
+    border-radius: 8px;
+    background: linear-gradient(to bottom, #D9D9D9, #A8F4FF);
+}
+
+.hero img {
+    max-width: 40%;  
+    height: auto;
+    float: right;    
+    margin-left: 1rem;  
+}
+
+/* Lists */
+main ul, .main ul {
+    list-style-type: circle; 
+    margin-left: 1.5rem; 
+    padding: 0.5rem;
+}
+
+main ol, .main ol {
+    list-style-type: decimal; 
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+}
+
+/* style for <dl> */
+dl {
+    margin: 1rem;
+}
+
+dt {
+    font-weight: 700; 
+    color: #3351F1;
+    margin-top: 1rem;
+}
+
+dd {
+    margin: 0 0 1rem 1rem;
+    color: #010F0C;
+}
+
+main a:hover {
+    color: #3351F1; 
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: 700; 
+    color: #010F0C;
+}
+
+address {
+    font-style: normal;
+    background-color: #A8F4FF; 
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+/* Gallery stuff here */
+.gallery {
+    text-align: center;
+    padding: 1rem;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery-container figure {
+    background: #fff;
+    border: 2px solid #3351F1;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 320px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+/* shadow for gallery images */
+.gallery-container figure:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gallery-container figcaption {
+    margin-top: 0.5rem;
+    color: #010F0C;
+}
+
+/* Form layout and styling */
+form fieldset {
+    border: 2px solid #3351F1;  
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #fff;     
+}
+
+form legend {
+    color: #010F0C;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.2rem 0.5rem;
+}
+
+form p {
+    margin-bottom: 1rem;
+}
+
+form label {
+    font-weight: 600;
+    cursor: pointer;  
+}
+
+form input[type="text"], form input[type="email"], form input[type="tel"], form select, form textarea {
+    width: 100%;
+    max-width: 400px;   
+    padding: 0.5rem;
+    border: 2px solid #3351F1;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #A8F4FF; 
+}
+
+form input[type="radio"], form input[type="checkbox"] {
+    margin-right: 0.3rem;
+    accent-color: #3351F1; 
+}
+
+form textarea {
+    resize: vertical; 
+}
+
+form .submit-btn {
+    background-color: #3351F1;
+    color: #fff;
+    border: 2px solid #010F0C;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+form .submit-btn:hover {
+    background-color: #A8F4FF;
+    color: #010F0C;
+}
+
+/* Thanks page */
+.message {
+    border: 2px solid #3351F1;
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 8px;
+    background: #fff;
+    margin: 2rem auto;
+}
+
+/* Gradient sections */
+.gradient-section {
+    background: linear-gradient(to right, #3351F1, #A8F4FF);
+    padding: 2rem;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
